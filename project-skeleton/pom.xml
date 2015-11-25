@@ -14,7 +14,10 @@
 	<modules>
 		<module>backend-service</module>
 		<module>frontend-mvc</module>
-  </modules>
+    	<module>module-A</module>
+    	<module>module-B</module>
+    	<module>module-domain</module>
+	</modules>
 
 	<dependencyManagement>
 		<dependencies>
