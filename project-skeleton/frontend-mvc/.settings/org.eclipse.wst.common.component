@@ -4,6 +4,12 @@
         <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/resources"/>
+        <dependent-module archiveName="module-A-0.0.1.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/module-A/module-A">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="module-B-0.0.1.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/module-B/module-B">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
         <property name="context-root" value="frontend-mvc"/>
         <property name="java-output-path" value="/frontend-mvc/target/classes"/>
     </wb-module>
