@@ -32,8 +32,7 @@ nohup java $JAVA_OPTS -Duser.dir=$APP_HOME -classpath $CLASS_PATH ${MAINCLASS} >
 
 echo
 echo "======================================================================================"
-echo "SUCCESS"
-echo "application start success"
+echo "application starting...."
 echo "======================================================================================"
 echo
 
