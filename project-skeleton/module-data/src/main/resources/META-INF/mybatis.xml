@@ -3,5 +3,6 @@
 <configuration>
 	<!-- 配置别名 --> 
 	<typeAliases>
+		<typeAlias type="org.thinking.module.domain.Person" alias="Person"/>
 	</typeAliases>
 </configuration>

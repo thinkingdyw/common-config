@@ -9,18 +9,13 @@
 		<version>0.0.1</version>
 	</parent>
 	<groupId>com.thinking.common</groupId>
-	<artifactId>module-domain</artifactId>
+	<artifactId>module-core</artifactId>
 	<version>0.0.1</version>
-	<name>module-domain</name>
+	<name>module-core</name>
 	<url>http://maven.apache.org</url>
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
 	<dependencies>
-		<dependency>
-			<groupId>com.thinking.common</groupId>
-			<artifactId>module-core</artifactId>
-			<version>0.0.1</version>
-		</dependency>
 	</dependencies>
 </project>

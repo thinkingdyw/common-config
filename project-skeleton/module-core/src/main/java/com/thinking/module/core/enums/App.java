@@ -1,4 +1,4 @@
-package org.module.domain;
+package com.thinking.module.core.enums;
 
 /**
  * Hello world!
