@@ -27,7 +27,7 @@
 		<module>module-B</module>
 		<module>module-domain</module>
 		<module>module-data</module>
-    <module>module-core</module>
+    	<module>module-core</module>
   </modules>
 
 	<dependencyManagement>
